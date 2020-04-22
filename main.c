@@ -110,7 +110,7 @@ u8 gio=0,phut=0,giay=0,thu=0,ngay=0,thang=0,nam=0;
 //		printf("%d--%d\r\n",temp,humi);
 //		delay_ms(300);
 		
-//	digitalWrite( PB5, HIGH );delay_ms(300);
-//	digitalWrite( PB5, LOW );delay_ms(300);
+	digitalWrite( PB5, HIGH );delay_ms(300);
+	digitalWrite( PB5, LOW );delay_ms(300);
 	}
  }

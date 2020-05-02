@@ -45,7 +45,7 @@ int sendAT(char* ATcmd, char* rec_answer, unsigned int timeout) {
   while((answer == 0) && ( --timeout>0 ));    
   return answer;
 }
-
+/*
 
 void init_SIM808(void) {
   do { answer = sendAT("AT+CREG?","+CREG: 0,1",1000);} while(answer==0);     // Connecting to the network
@@ -56,7 +56,7 @@ void init_SIM808(void) {
   do { answer = sendAT("AT+CLIP=1", "OK",1000);} while(answer==0);          //Hien thi thon g tin nguoi goi den 
  
   }
-
+*/
 
 u8 scans_IIC( u8 add)	{
 	

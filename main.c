@@ -67,6 +67,11 @@ u8 scans_IIC( u8 add)	{
 	return 0;
 }
 
+void setTimer(int x, int y, int z){
+	x = 10;
+	y = 100;
+	z = 20;
+}
 u8 gio=0,phut=0,giay=0,thu=0,ngay=0,thang=0,nam=0;
 
  int main(void)

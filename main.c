@@ -67,6 +67,11 @@ u8 scans_IIC( u8 add)	{
 	return 0;
 }
 
+void setDay(int x, int y, int x){
+	x = 1;
+	y = 2;
+	z = 3;
+}
 void setTimer(int x, int y, int z){
 	x = 10;
 	y = 100;

@@ -79,6 +79,9 @@ void setTimer(int x, int y, int z){
 }
 u8 gio=0,phut=0,giay=0,thu=0,ngay=0,thang=0,nam=0;
 
+int test_github(){
+
+}
  int main(void)
  {	
 	 //u8 c=0;
@@ -125,3 +128,4 @@ u8 gio=0,phut=0,giay=0,thu=0,ngay=0,thang=0,nam=0;
 	digitalWrite( PB5, LOW );delay_ms(300);
 	}
  }
+
